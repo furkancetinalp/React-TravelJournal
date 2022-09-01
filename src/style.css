@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  background-color: #FFFFFF;
+
+}
+nav{
+  background-color: #F55A5A;
+  display: flex;
+  height: 50px;
+
+
+}
+nav >h3{
+  display: flex;
+  margin: auto auto;
+  color: whitesmoke;
+}
+.globe--icon{
+  color: whitesmoke;
+  width: 24px;
+}
+
+.card{
+  width: 80%;
+
+  display:flex;
+  flex-direction: row;
+  margin: 80px 80px;
+
+}
+
+.card--stats{
+  margin: 40px 0 0 60px;
+}
+
+.card--image{
+  width: 325px;
+  height: 368px;
+  border-radius: 9px;
+}
+.card--location{
+  width: 25px;
+  height: 28px;
+  color: red;
+  padding-top: 9px;
+  margin-left: -6px;
+}
+.card--country{
+  font-family: inter;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.card--map{
+  color: #918E9B;
+  text-decoration: underline;
+}
+.place--name{
+  color: #2B283A;
+  font-size: 37px;
+  margin-top: 5px;
+}
+.card--date{
+  font-size: medium;
+  font-family: inter;
+}
+.card--desc{
+  font-family: inter;
+  margin-top: -20px;
+}
